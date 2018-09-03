@@ -17,6 +17,12 @@ public class Proyecto {
     public static void main(String[] args) {
         // TODO code application logic here
         // Un segundo comentario
+        Business business = new Business();
+        business.printCargo();
+        business.printPassengers();
+        business.changeCapacity("ABC");
+        business.printPassengerTrucksByBrand();
+        business.printTotalCargo();
     }
    
     

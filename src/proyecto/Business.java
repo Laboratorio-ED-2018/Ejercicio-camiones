@@ -13,8 +13,21 @@ import java.util.Scanner;
  * @author ICABOA
  */
 public class Business {
-    Truck[] trucks = new Truck[10];
-    
+    private Truck[] trucks = new Truck[10];
+
+    public Business() {
+        trucks[0] = new Cargo("VW", "1234", "ABC", 10);
+        trucks[1] = new Cargo("Volvo", "1235", "ABD", 10);
+        trucks[2] = new Cargo("VW", "1236", "ABDC", 10);
+        trucks[3] = new Cargo("Mercedes", "1237", "ABDW", 10);
+        trucks[4] = new Cargo("Volvo", "1238", "ABDS", 10);
+        trucks[5] = new Passengers("VW", "533434", "AJSJ", 5);
+        trucks[6] = new Passengers("Mercedes", "553434", "AQSJ", 5);
+        trucks[7] = new Passengers("Volvo", "5433434", "AJEJ", 5);
+        trucks[8] = new Passengers("Volvo", "533734", "AJLJ", 5);
+        
+        
+    }
     
     /*
      * imprimir todos los datos de todos los camiones de pasajeros, 
